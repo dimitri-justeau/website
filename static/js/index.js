@@ -11,23 +11,30 @@ window.lazyLoadCesium = function() {
     return s;
 };
 
+var tile_layer = new ol.layer.Tile({
+    source: new ol.source.XYZ({
+        attributions: [new ol.Attribution({
+            html: '© <a href="http://cartodb.com/attributions">CartoDB</a> ' + '© <a href="http://www.openstreetmap.org/copyright">' + 'OpenStreetMap contributors</a>'
+        })],
+        url:'https://cartocdn_{a-d}.global.ssl.fastly.net/base-antique/{z}/{x}/{y}.png'
+    })
+});
+
 var map2d = new ol.Map({
     layers: [
-        new ol.layer.Tile({
-            source: new ol.source.Stamen({
-                layer: 'watercolor'
-            })
-        }), 
-    ],
-    controls: ol.control.defaults({
-        attributionOptions: /** @type {olx.control.AttributionOptions} */ ({
+        tile_layer
+    ], 
+    controls: [
+        new ol.control.Zoom({
+        }),
+        new ol.control.Attribution({
             collapsible: false
         })
-    }),
+    ],
     target: 'map',
     view: new ol.View({
         center: ol.proj.transform([25, 20], 'EPSG:4326', 'EPSG:3857'),
-        zoom: 2
+        zoom: 1.7
     })
 });
 
