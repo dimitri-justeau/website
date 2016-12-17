@@ -1,0 +1,50 @@
+body {
+    min-height: 0;
+}
+
+section.header .name {
+    font-size: 30px;
+}
+
+section.header {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+#site_title {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: -ms-flex;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#icons a {
+    font-size: 20px;
+    color: #666666;
+}
+
+@media (min-width: 600px) {
+    section {
+        max-width: 60%;
+    }
+}
+
+#map {
+    height: 60vh;
+    padding-left: 0vh;
+    padding-right: 0vh;;
+}
+
+.ol-viewport {
+   border-radius: 5px; 
+}
+
+.ol-attribution.ol-uncollapsible {
+    height: 1.5em;
+    margin-right: 5px;
+}
+
