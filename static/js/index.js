@@ -20,9 +20,29 @@ var tile_layer = new ol.layer.Tile({
     })
 });
 
+var image = new ol.style.Circle({
+    radius: 6,
+    fill: new ol.style.Fill({
+        color: 'rgba(255, 0, 0, 0.3)'
+    }),
+    stroke: new ol.style.Stroke({color: 'red', width: 2})
+});
+
+var projects_layer = new ol.layer.Vector({
+    source: new ol.source.Vector({
+        projection: 'EPSG:4326',
+        url: 'geojson/projects.geojson',
+        format: new ol.format.GeoJSON()
+    }),
+    style: new ol.style.Style({
+        image: image
+    })
+});
+
 var map2d = new ol.Map({
     layers: [
-        tile_layer
+        tile_layer,
+        projects_layer
     ], 
     controls: [
         new ol.control.Zoom({
