@@ -18,9 +18,13 @@
 <link rel="stylesheet" href="/css/pygments.css">
 <link rel="stylesheet" href="/css/main.css">
 
-{{range .Site.Params.extracssfiles}}
+{{ range .Site.Params.extracssfiles }}
     <link rel="stylesheet" href="{{.}}">
-{{end}}
+{{ end }}
+
+{{ if .IsHome }}
+<link rel="stylesheet" href="js/ol3-cesium/ol.css" type="text/css">
+{{ end }}
 
 <!-- Icon -->
 <link rel="shortcut icon"
