@@ -7,8 +7,8 @@ section.header .name {
 }
 
 section.header {
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 #site_title {
@@ -34,7 +34,7 @@ section.header {
 }
 
 #map {
-    height: 60vh;
+    height: 70vh;
     padding-left: 0vh;
     padding-right: 0vh;;
 }
