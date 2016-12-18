@@ -20,12 +20,13 @@ var tile_layer = new ol.layer.Tile({
     })
 });
 
-var image = new ol.style.Circle({
-    radius: 6,
-    fill: new ol.style.Fill({
-        color: 'rgba(255, 0, 0, 0.3)'
-    }),
-    stroke: new ol.style.Stroke({color: 'red', width: 2})
+var projects_style = new ol.style.Style({
+    image: new ol.style.Icon({
+        anchor: [0.5, 1],
+        anchorXUnits: 'fraction',
+        anchorYUnits: 'fraction',
+        src: 'img/map-marker.svg'
+    })
 });
 
 var projects_layer = new ol.layer.Vector({
@@ -34,9 +35,7 @@ var projects_layer = new ol.layer.Vector({
         url: 'geojson/projects.geojson',
         format: new ol.format.GeoJSON()
     }),
-    style: new ol.style.Style({
-        image: image
-    })
+    style: projects_style
 });
 
 var map2d = new ol.Map({
