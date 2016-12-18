@@ -11,6 +11,14 @@ section.header {
     padding-bottom: 40px;
 }
 
+.sub_name {
+    font-family: "Raleway","Helvetica  Neue","Arial",sans-serif;
+    font-size: 18px;
+    color: #666666;
+    margin-right: auto;
+    margin-left: 15px;
+}
+
 #site_title {
     display: -webkit-flex;
     display: -moz-flex;
