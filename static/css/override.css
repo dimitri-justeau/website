@@ -1,5 +1,6 @@
 body {
     min-height: 0;
+    font-family: "Raleway","Helvetica Neue","Arial",sans-serif;
 }
 
 section.header .name {
@@ -8,11 +9,15 @@ section.header .name {
 
 section.header {
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+}
+
+#attribution_footer {
+    margin-top: 70px;
+    order: 3;
 }
 
 .sub_name {
-    font-family: "Raleway","Helvetica  Neue","Arial",sans-serif;
     font-size: 18px;
     color: #666666;
     margin-right: auto;
@@ -37,7 +42,7 @@ section.header {
 
 @media (min-width: 600px) {
     section {
-        max-width: 60%;
+        max-width: 80%;
     }
 }
 
