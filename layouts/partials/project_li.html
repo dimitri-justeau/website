@@ -1,5 +1,5 @@
 <li class="project_li">
     <span class="abstract"><span>{{ .Description }}</span></span>
-    <img src="{{ .Params.thumbnail }}"/>
+    <a class="img_link" href="{{ .Permalink }}"><img src="{{ .Params.thumbnail }}"/></a>
     <a href="{{ .Permalink }}"><span>{{ .Title }}</span></a>
 </li>
