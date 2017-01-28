@@ -29,20 +29,51 @@ var projects_style = new ol.style.Style({
     })
 });
 
+var hover = new ol.interaction.Select({
+    condition: ol.events.condition.pointerMove,
+    style: new ol.style.Style({
+        image: new ol.style.Icon({
+            anchor: [0.5, 1],
+            anchorXUnits: 'fraction',
+            anchorYUnits: 'fraction',
+            src: 'img/map-marker-hover.svg'
+        })
+    }) 
+});
+
 var projects_layer = new ol.layer.Vector({
     source: new ol.source.Vector({
         projection: 'EPSG:4326',
-        url: 'geojson/projects.geojson',
+        url: file_url,
         format: new ol.format.GeoJSON()
     }),
     style: projects_style
 });
 
+var container = document.getElementById('popup');
+var content = document.getElementById('popup-content');
+var closer = document.getElementById('popup-closer');
+
+var overlay = new ol.Overlay({
+    element: container,
+    autoPan: true,
+    autoPanAnimation: {
+        duration: 250
+    }
+});
+
+closer.onclick = function() {
+    overlay.setPosition(undefined);
+    closer.blur();
+    return false;
+};
+
 var map2d = new ol.Map({
     layers: [
         tile_layer,
         projects_layer
-    ], 
+    ],
+    overlays: [overlay],
     controls: [
         new ol.control.Zoom({
         }),
@@ -50,11 +81,24 @@ var map2d = new ol.Map({
             collapsible: false
         })
     ],
+    interactions: new ol.interaction.defaults().extend([hover]),
     target: 'map',
     view: new ol.View({
         center: ol.proj.transform([25, 20], 'EPSG:4326', 'EPSG:3857'),
         zoom: 2
     })
+});
+
+map2d.on('click', function(evt) {
+    map2d.forEachFeatureAtPixel(evt.pixel, function(feature, layer) {
+        var geometry = feature.getGeometry();
+        var coordinate = geometry.getCoordinates();
+        var p = feature.getProperties()
+        var text = "<b>" + p.company + " (" + p.period + "), "  + p.city + "</b>"
+            + "<p>" + feature.getProperties().title  + "</p>";
+        content.innerHTML = text;
+        overlay.setPosition(coordinate);
+    });
 });
 
 var map3d;

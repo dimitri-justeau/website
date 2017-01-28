@@ -8,14 +8,14 @@
 <section class="header"> 
     <div class="container">
         <div class="content">
-            {{ if .Site.Params.gravatar }}
-              <a href="/"><img class="avatar" src="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=50" /></a>
-            {{ else if .Site.Params.avatar }}
-              <a href="/"><img class="avatar" src="/{{ .Site.Params.avatar }}" /></a>
-            {{ end }}
             <div id=site_title>
                 <a href="/"><div class="name">{{ .Site.Params.author }}</div></a> 
-                <div class="sub_name">Computer science - Ecoinformatics - GIS </div>
+                <div class="sub_name">
+                    {{ i18n "it" }} /
+                    {{ i18n "decision_support" }} /
+                    {{ i18n "ecoinformatics" }} /
+                    {{ i18n "gis" }}
+                </div>
                 <div id="icons">
                     {{ if .Site.Params.github }}
                         <a href="{{ .Site.Params.github }}" target="_blank">
@@ -60,12 +60,25 @@
                     {{ end }}
                 </div> 
             </div>
-            <nav>
+            <div class="container_sub">
+            <nav id=menu>
                 <ul>
-                    <a href="/about/"><li>About</li></a>
-                    <a href="/blog/"><li>Blog</li></a>
+                    <a href={{ "/projects/" | absLangURL }}><li>{{ i18n "projects" }}</li></a>
+                    <a href={{ "/about/" | absLangURL }}><li>{{ i18n "about" }}</li></a>
                 </ul>
             </nav>
+            <nav id=langs>
+                <ul>
+                    <li>{{ .Lang }}</li>
+                    {{ range .Translations }}
+                    <li>
+                        /<a href="{{ .Permalink }}">{{ .Lang }}</a>
+                    </li>
+                    {{ end}}
+                </ul>
+
+            </nav>
+            </div>
         </div>
     </div>
 </section>

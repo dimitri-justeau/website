@@ -1,0 +1,15 @@
+- id: about
+  translation: "Sobre mí"
+- id: projects
+  translation: "Proyectos"
+- id: blog
+  translation: "Blog"
+
+- id: it
+  translation: "IT"
+- id: decision_support
+  translation: "Soporte a las decisiones"
+- id: ecoinformatics
+  translation: "Ecoinformática"
+- id: gis
+  translation: "GIS"

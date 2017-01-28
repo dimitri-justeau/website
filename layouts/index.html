@@ -2,9 +2,16 @@
 <section class="main">
     <div class="container">
         <div class="content">
-             <div id="map"></div>
+            <div id="map"></div>
+             <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+             </div>
         </div>
     </div>
 </section>
 {{ partial "footer.html" . }}
+<script>
+    var file_url = "geojson/projects.{{ .Lang }}.geojson";
+</script>
 <script type="text/javascript" src="js/index.js"></script>

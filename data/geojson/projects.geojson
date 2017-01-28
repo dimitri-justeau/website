@@ -4,7 +4,6 @@
                                                                                 
 "features": [
 { "type": "Feature", "properties": { "city": "Nouméa", "country": " Nouvelle-Calédonie", "x": 166.458, "y": -22.2758 }, "geometry": { "type": "Point", "coordinates": [ 166.458, -22.2758 ] } },
-{ "type": "Feature", "properties": { "city": "Paris", "country": " France", "x": 2.3522219, "y": 48.856614 }, "geometry": { "type": "Point", "coordinates": [ 2.3522219, 48.856614 ] } },
 { "type": "Feature", "properties": { "city": "Conakry", "country": " Guinée", "x": -13.5784012, "y": 9.6411855 }, "geometry": { "type": "Point", "coordinates": [ -13.5784012, 9.6411855 ] } },
 { "type": "Feature", "properties": { "city": "Montreuil", "country": " France", "x": 2.448451, "y": 48.863812 }, "geometry": { "type": "Point", "coordinates": [ 2.448451, 48.863812 ] } },
 { "type": "Feature", "properties": { "city": "Barcelona", "country": " Catalogne", "x": 2.1734035, "y": 41.3850639 }, "geometry": { "type": "Point", "coordinates": [ 2.1734035, 41.3850639 ] } },
