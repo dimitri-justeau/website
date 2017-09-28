@@ -14,7 +14,7 @@ if [ $# -eq 1 ]
       then msg="("
       fi
       git commit -m "$msg"
-      
+
       # Push source and build repos.
       git push origin master
       git subtree push --prefix=public git@github.com:dimitri-justeau/website.git gh-pages

@@ -1,35 +1,100 @@
-baseurl = "https://dimitri-justeau.github.io/" 
-builddrafts = false
-canonifyurls = true
-contentdir = "content"
-DefaultContentLanguage = "en"
-layoutdir = "layouts"
-publishdir = "public"
-author = "Dimitri Justeau"
-title = "{ Dimitri Justeau }"
-pygmentsuseclasses = true
-pluralizelisttitles = false
+baseURL = "http://localhost:1313/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Dimitri Justeau"
+enableRobotsTXT = true
+enableEmoji = true
+theme = "even"
 
-[permalinks]
-fixed = ":title/"
-blog = "blog/:slug/"
+paginate = 3
+disqusShortname = ""      # disqus_shortname
+googleAnalytics = ""      # UA-XXXXXXXX-X
+copyright = "Dimitri Justeau"
+[author]
+  name = "Dimitri Justeau"
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[menu.main]]             # config your menu
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Archives"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
 
 [params]
-author = "{ Dimitri Justeau }"
-dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Don't panic"
-email = "dimitri.justeau@gmail.com"
-# faviconfile = "img/leaf.ico"
-github = "//github.com/dimitri-justeau"
-linkedin = "//linkedin.com/in/dimitrijusteau"
+  since = "2017"            # Site creation time
 
-extracssfiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
+  # site info (option)
+  logoTitle = "Dimitri Justeau"        # default: the title value
+  keywords = ["Hugo", "theme","even"]
+  description = "Hugo theme even example site."
 
-[Languages]
-[Languages.en]
+  # paginate of archives, tags and categories
+  archive-paginate = 3
+  
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "2006-01-02"
 
-[Languages.fr]
+  # show word count and read time ?
+  moreMeta = false
 
-[Languages.es]
+  # Some global options, you can close something in front matter.
+  toc = true
+  fancybox = true           # see https://github.com/fancyapps/fancybox
+  mathjax = true            # see https://www.mathjax.org/
+  linkToMarkDown = false    # if you config contentCopyright and hugo output .md files.
 
+  contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
+  [params.publicCDN]        # load these files from public cdn
+    enable = false
+    jquery = '<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>'
+    slideout = '<script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>'
+    fancyboxJs = '<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>'
+    fancyboxCss = '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">'
+
+  [params.reward]
+    enable = false
+    wechat = "/path/to/your/wechat-qr-code.png"
+    alipay = "/path/to/your/alipay-qr-code.png"
+
+  [params.social]
+    a-email = "mailto:dimitri.justeau@gmail.com"
+    b-stack-overflow = "https://stackoverflow.com/users/5131997/dim"
+    e-linkedin = "https://www.linkedin.com/in/dimitrijusteau/"
+    g-github = "https://github.com/dimitri-justeau"
+
+# Uncomment these options to make hugo output .md files.
+#[mediaTypes]
+#  [mediaTypes."text/plain"]
+#    suffix = "md"
+#
+#[outputFormats.MarkDown]
+#  mediaType = "text/plain"
+#  isPlainText = true
+#  isHTML = false
+#
+#[outputs]
+#  home = ["HTML", "RSS"]
+#  page = ["HTML", "MarkDown"]
+#  section = ["HTML", "RSS"]
+#  taxonomy = ["HTML", "RSS"]
+#  taxonomyTerm = ["HTML"]
