@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://dimitri-justeau.github.io"
 languageCode = "en"
 defaultContentLanguage = "en"
 title = "Dimitri Justeau"
