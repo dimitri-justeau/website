@@ -45,7 +45,7 @@ copyright = "Dimitri Justeau"
   # site info (option)
   logoTitle = "Dimitri Justeau"        # default: the title value
   keywords = ["Hugo", "theme","even"]
-  description = "Hugo theme even example site."
+  description = "Hi, I am Dimitri! Currently PhD candidate, I use applied mathematics and computer science to solve conservation planning problems. This is my personal website, where you can learn more about me and my projects. I also use it as a PhD blog, and post about science and tech stuff."
 
   # paginate of archives, tags and categories
   archive-paginate = 3
