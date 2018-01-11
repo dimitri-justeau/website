@@ -31,7 +31,7 @@ $deputy-color: nth($theme-color-list, 2) !default;
 
 // ========== Color ========== //
 $black: #0a0a0a !default;
-$white: #fefefe !default;
+$white: #f2f2f2 !default;
 $light-gray: #e6e6e6 !default;
 $gray: #cacaca !default;
 $dark-gray: #8a8a8a !default;
@@ -42,10 +42,10 @@ $dark-gray: #8a8a8a !default;
 $global-font-color: #34495e !default;
 
 // Font size attribute applied to '<html>' and '<body>'.
-$global-font-size: 16px !default;
+$global-font-size: 14px !default;
 
 // Global width of '<body>'.
-$global-body-width: 900px !default;
+$global-body-width: 950px !default;
 
 // Padding of container main
 $global-container-padding: 0 20px !default;
@@ -54,14 +54,14 @@ $global-container-padding: 0 20px !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: 'Fira Sans', 'Helvetica Neue', Arial, sans-serif !default;
+$global-font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif !default;
 
 // Font family and size of the footer
 $footer-font-family: $global-font-family;
 $footer-font-size: 14px;
 
 // Serif font family of the site.
-$global-serif-font-family: "Libre Baskerville", STHeiti, Microsoft Yahei, serif !default;
+$global-serif-font-family: "EB Garamond", STHeiti, Microsoft Yahei, serif !default;
 
 // Background color of the site.
 $global-background: $white !default;
@@ -71,11 +71,10 @@ $global-headings: (
   h1: 26px,
   h2: 24px,
   h3: 20px,
-  h4: 16px,
-  h5: 14px,
+  h4: 18px,
+  h5: 16px,
   h6: 14px
 ) !default;
-
 
 // ========== Header ========== //
 // Padding of the site header.
@@ -83,13 +82,13 @@ $header-padding: 20px 20px 0 20px !default;
 $header-margin: 0 0 20px 0 !default;
 
 // Font family: Libre Baskerville and Fira
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300|Libre+Baskerville');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|EB+Garamond:400,600');
 
 // Font size of the logo.
-$logo-font-size: 35px !default;
+$logo-font-size: 34px !default;
 
 // Font family of the logo.
-$logo-font-family: "Libre Baskerville" !default;
+$logo-font-family: "EB Garamond" !default;
 
 // Margin of menu item.
 $menu-item-margin-left: 12px !default;
@@ -98,7 +97,7 @@ $menu-item-margin-left: 12px !default;
 $menu-item-mobile-margin: 5px !default;
 
 // Font size of menu item link.
-$menu-link-font-size: 16px !default;
+$menu-link-font-size: 18px !default;
 
 // Height of the mobile header.
 $mobile-navbar-height: 50px !default;
