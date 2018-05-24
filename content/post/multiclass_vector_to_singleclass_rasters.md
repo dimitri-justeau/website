@@ -113,7 +113,7 @@ for class_value in classes:
 
 ### 5 - Putting all together into a generic function
 
-The whole process can be encapsulated into a generic python function, that can also be used as a command line function. Below is the code of such a generic function. You can also find it on this [gist](https://gist.github.com/), with a command-line enabled version.
+The whole process can be encapsulated into a generic python function, that can also be used as a command line function. Below is the code of such a generic function. You can also find it on this [gist](https://gist.github.com/dimitri-justeau/20f256086cb153e32213a2c03c1d1327), with a command-line enabled version.
 
 ```python
 import os
