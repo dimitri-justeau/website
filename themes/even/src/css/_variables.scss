@@ -42,7 +42,7 @@ $dark-gray: #8a8a8a !default;
 $global-font-color: #34495e !default;
 
 // Font size attribute applied to '<html>' and '<body>'.
-$global-font-size: 14px !default;
+$global-font-size: 15px !default;
 
 // Global width of '<body>'.
 $global-body-width: 950px !default;
@@ -250,7 +250,7 @@ $code-type-list: (
 ) !default;
 
 // Color of the code background.
-$code-background: $deputy-color !default;
+$code-background: white !default;
 
 
 // ========== Pagination ========== //

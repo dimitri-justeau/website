@@ -29,8 +29,7 @@ code {
       padding: 2px 7px;
       font-size: $code-font-size;
       font-weight: bold;
-      color: darken($gray, 10%);
-      background: darken($code-background, 3%);
+      background: lighten($gray, 5%);
       content: 'Code';
     }
   }
