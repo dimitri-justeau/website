@@ -1,0 +1,14 @@
+// ==============================
+// Custom style
+// ==============================
+// You can override the variables in _variables.scss to customize the style
+
+.short_description {
+    word-wrap: break-word;
+    text-align: justify;  
+    margin-bottom: 25px;
+}
+
+.no-bottom-margin {
+    margin-bottom: 0;
+}
