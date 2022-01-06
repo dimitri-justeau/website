@@ -1,8 +1,9 @@
 ---
-title: "About"
+title: "Abou/home/djusteau/website/content/about.mdt"
 date: 2017-08-20T21:38:52+08:00
 lastmod: 2017-08-28T21:41:52+08:00
 #menu: "main"
+draft: true
 ---
 
 ![alt text](/img/massane.jpg "Massane forest reserve, Oriental Pyrenees - France")
