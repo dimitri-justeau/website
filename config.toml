@@ -174,9 +174,9 @@ pygmentsCodefencesGuessSyntax = true
     #b-stack-overflow = "http://localhost:1313"
     #c-twitter = "http://localhost:1313"
     #d-facebook = "http://localhost:1313"
-    e-linkedin = "http://localhost:1313"
+    #e-linkedin = "https://www.linkedin.com/in/dimitrijusteau/"
     #f-google = "http://localhost:1313"
-    g-github = "http://localhost:1313"
+    #g-github = "https://github.com/dimitri-justeau/"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]

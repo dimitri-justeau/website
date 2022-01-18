@@ -44,9 +44,11 @@ I am currently working as a postdoc in the [**ADMIRE**](https://amap.cirad.fr/fr
 
 ### Journal Articles
 
-- **Justeau-Allaire, D**., Vieilledent, G., Rinck, N., Vismara, P., Lorca, X., & Birnbaum, P. (2021). Constrained optimization of landscape indices in conservation planning to support ecological restoration in New Caledonia. Journal of Applied Ecology, 58(4), 744-754. https://doi.org/10.1111/1365-2664.13803
+- **Justeau-Allaire, D.**, & Prud’homme, C. (2022). Global domain views for expressive and cross-domain constraint programming. Constraints. https://doi.org/10.1007/s10601-021-09324-7
 
-- **Justeau-Allaire, D**. (2021). Planification systématique de la conservation basée sur les contraintes, une approche générique et expressive : Application à l’aide à la décision pour la conservation des forêts de Nouvelle-Calédonie. Bois et Forêts des Tropiques, 349, 107‑108. https://doi.org/10.19182/bft2021.349.a36793
+- **Justeau-Allaire, D.**., Vieilledent, G., Rinck, N., Vismara, P., Lorca, X., & Birnbaum, P. (2021). Constrained optimization of landscape indices in conservation planning to support ecological restoration in New Caledonia. Journal of Applied Ecology, 58(4), 744-754. https://doi.org/10.1111/1365-2664.13803
+
+- **Justeau-Allaire, D.**. (2021). Planification systématique de la conservation basée sur les contraintes, une approche générique et expressive : Application à l’aide à la décision pour la conservation des forêts de Nouvelle-Calédonie. Bois et Forêts des Tropiques, 349, 107‑108. https://doi.org/10.19182/bft2021.349.a36793
 
 - Schmitt, S., Pouteau, R., **Justeau, D**., Boissieu, F., & Birnbaum, P. (2017). ssdm : An r package to predict distribution of species richness and composition based on stacked species distribution models. Methods in Ecology and Evolution, 8(12), 1795‑1803. https://doi.org/10.1111/2041-210X.12841
 
@@ -71,3 +73,7 @@ I am currently working as a postdoc in the [**ADMIRE**](https://amap.cirad.fr/fr
 ### Books
 
 - Birnbaum, P., Hequet, V., Girardi, J., Vandrot, H., Mangeard, T., Ibanez, T., Blanchard, E., Pouteau, R., Blanchard, G., **Justeau-Allaire, D.**, Vieilledent, G., Cassan, J.-J. (2021). Atlas de la forêt, Province Nord – Nouvelle-Calédonie. Editions de la Province Nord, Kohné.
+
+### Popular science articles
+
+- Interview with *Neotech.nc*: https://neotech.nc/rencontre-avec-dimitri-justeau-allaire-chercheur-en-planification-systematique-de-la-conservation/
