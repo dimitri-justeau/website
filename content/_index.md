@@ -42,7 +42,9 @@ I am currently working as a postdoc in the [**ADMIRE**](https://amap.cirad.fr/fr
 
 # Publications
 
-### Journal Articles
+### Journal articles
+
+- **Justeau-Allaire, D.**, Blanchard, G., Ibanez, T., Lorca, X., Vieilledent, G. & Birnbaum, P. (2022). Fragmented landscape generator (flsgen): A neutral landscape generator with control of landscape structure and fragmentation indices. Methods in Ecology and Evolution, 13, 1412–1420. https://doi.org/10.1111/2041-210X.13859
 
 - **Justeau-Allaire, D.**, & Prud’homme, C. (2022). Global domain views for expressive and cross-domain constraint programming. Constraints. https://doi.org/10.1007/s10601-021-09324-7
 
@@ -52,7 +54,7 @@ I am currently working as a postdoc in the [**ADMIRE**](https://amap.cirad.fr/fr
 
 - Schmitt, S., Pouteau, R., **Justeau, D**., Boissieu, F., & Birnbaum, P. (2017). ssdm : An r package to predict distribution of species richness and composition based on stacked species distribution models. Methods in Ecology and Evolution, 8(12), 1795‑1803. https://doi.org/10.1111/2041-210X.12841
 
-### International conferences proceedings
+### International conferences articles
 
 - **Justeau-Allaire, D.**, Vismara, P., Birnbaum, P., & Lorca, X. (2019). Systematic Conservation Planning for Sustainable Land-use Policies : A Constrained Partitioning Approach to Reserve Selection and Design. Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, 5902‑5908. https://doi.org/10.24963/ijcai.2019/818
 
@@ -60,15 +62,25 @@ I am currently working as a postdoc in the [**ADMIRE**](https://amap.cirad.fr/fr
 
 ### International conferences abstracts
 
+- **Justeau-Allaire, D.**, Lannuzel, G., Hanson, JO, Vieilledent, G., Birnbaum, P. (2022). Ecological restoration planning of fragmented tropical vegetation: an example from New Caledonia’s mining areas. European Conference of Tropical Ecology 2022.
+
 - **Justeau-Allaire, D.**, Rink, N., Lorca, X., Couture, E., & Birnbaum, P. (2019). Systematic conservation planning in New Caledonia : Supporting sustainable land-use policies with reserve selection models. Island Biology 2019. https://hal.umontpellier.fr/hal-02313739
 
 - Birnbaum, P., Ibanez, T., Pouteau, R., Vandrot, H., Hequet, V., Blanchard, G., Girardi, J., **Justeau-Allaire, D.**, & Cassan, J.-J. (2019). Do endemic trees ﬂora make endemic forests? Insights from New Caledonian forests. Island Biology 2019. https://agritrop.cirad.fr/594146/
 
-### National conferences proceedings
+### National conferences articles
 
-- **Justeau-Allaire, D.**, Vismara, P., Birnbaum, P., & Lorca, X. (2020). Partitionnement de l’espace sous contraintes : Un modèle générique et expressif pour la planification de la conservation. ROADEF 2020 -  Actes du 21ème congrès annuel de la société Française de Recherche Opérationnelle et d’Aide à la Décision.
+- **Justeau-Allaire, D.**, Prud'Homme, C. (2022). Vues de domaine globales. JFPC/PFIA 2022 - Journées Francophones de la Programmation par Contraintes/Plate-Forme d'Intelligence Artificielle.
+
+- **Justeau-Allaire, D.**, Vismara, P., Birnbaum, P., & Lorca, X. (2020). Partitionnement de l’espace sous contraintes : Un modèle générique et expressif pour la planification de la conservation. ROADEF 2020 - Actes du 21ème congrès annuel de la société Française de Recherche Opérationnelle et d’Aide à la Décision.
 
 - **Justeau-Allaire, D**., Birnbaum, P., & Lorca, X. (2019). Unifier les stratégies de sélection de réserve avec la programmation par contraintes et les graphes. JFPC 2019 - Actes des 15es Journees Francophones de Programmation par Contraintes, 27‑29. https://hal-mines-albi.archives-ouvertes.fr/hal-02160264
+
+### International conference posters
+
+- **Justeau-Allaire, D.**, Birnbaum, P., & Lorca, X. (2018). Unifying Reserve Design Strategies with Graph Theory and Constraint Programming. In J. Hooker (Éd.), Principles and Practice of Constraint Programming (p. 507‑523). Springer International Publishing. https://doi.org/10.1007/978-3-319-98334-9_33
+
+- Cissé, M., Diallo, M. S., Tidiane, C. T., Kpamou, C., **Dimitri, J.**, Dortenzio, E., & Ndawinz, J. D. (2015). Impact of the Ebola outbreak on the quality of care of people living with HIV taking antiretroviral treatment at Donka National Hospital in Conakry, Guinea. In Proceedings of the Conference on Retroviruses and Opportunistic Infections (pp. 23-26).
 
 ### Books
 
@@ -77,3 +89,16 @@ I am currently working as a postdoc in the [**ADMIRE**](https://amap.cirad.fr/fr
 ### Popular science articles
 
 - Interview with *Neotech.nc*: https://neotech.nc/rencontre-avec-dimitri-justeau-allaire-chercheur-en-planification-systematique-de-la-conservation/
+
+### Softwares
+
+- **Justeau-Allaire D**, Blanchard G, Ibanez T, Lorca X, Vieilledent G, Birnbaum P (2022). rflsgen / flsgen: A Neutral Landscape Generator with Targets on Landscape Indices. R package version 1.0.0, https://dimitri-justeau.github.io/rflsgen/. Java library version 1.1.0, https://github.com/dimitri-justeau/flsgen.
+
+- **Justeau-Allaire, D.**., Vieilledent, G., Rinck, N., Vismara, P., Lorca, X., & Birnbaum, P. (2021). restopt / restoptr: Ecological restoration planning software to reduce habitat fragmentation and increase habitat connectivity. https://github.com/dimitri-justeau/restopt, https://github.com/dimitri-justeau/restoptr.
+
+- I'm a contributor of [Choco-solver](https://choco-solver.org/).
+
+- Schmitt, S., Pouteau, R., **Justeau, D**., Boissieu, F., & Birnbaum, P. ssdm : An r package to predict distribution of species richness and composition based on stacked species distribution models (2017). https://cran.r-project.org/web/packages/SSDM/index.html.
+
+- [Niamoto](https://niamoto.nc/), a web portal about New Caledonian forests -- Since 2016, IAC / AMAP forest ecology team.
+
