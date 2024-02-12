@@ -170,7 +170,7 @@ pygmentsCodefencesGuessSyntax = true
     pagePV = true
 
   [params.social]                                         # 
-    a-email = "mailto:dimitri.justeau@gmail.com"
+    a-email = "mailto:dimitri.justeau@ird.fr"
     #b-stack-overflow = "http://localhost:1313"
     #c-twitter = "http://localhost:1313"
     #d-facebook = "http://localhost:1313"
